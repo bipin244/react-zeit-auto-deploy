@@ -5,6 +5,7 @@
     "NODE_ENV": "production",
     "githubAccessToken": "@github"
   },
+  "version": 2,
   "scale": {
     "sfo1": {
       "min": 1,
