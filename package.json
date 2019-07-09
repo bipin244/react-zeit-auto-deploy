@@ -30,8 +30,8 @@
     "purge": "now rm react-auto-deploy -s -y",
     "test": "react-scripts test --env=jsdom",
     "travis:purge": "now rm react-auto-deploy -s -y --token $NOW_TOKEN",
-    "travis:production": "now --token $NOW_TOKEN && now alias --token $NOW_TOKEN && yarn travis:purge",
-    "travis:staging": "now -A now-staging.json --token $NOW_TOKEN && now alias -A now-staging.json --token $NOW_TOKEN && yarn travis:purge",
+    "travis:production": "now --token $NOW_TOKEN && now --target production --token $NOW_TOKEN && yarn travis:purge",
+    "travis:staging": "now -A now-staging.json --token $NOW_TOKEN && now --target staging -A now-staging.json --token $NOW_TOKEN && yarn travis:purge",
     "eject": "react-scripts eject"
   },
   "proxy": {
