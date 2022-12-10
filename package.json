@@ -7,7 +7,7 @@
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
     "compression": "^1.7.2",
-    "express": "^4.16.3",
+    "express": "^4.17.3",
     "now-env": "^3.1.0",
     "react": "^16.4.1",
     "react-app-rewired": "^1.5.2",
